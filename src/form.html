@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>HTML Forms</h2>
+    <form action="https://httpbin.org/post" method="post">
+        <h3>文字輸入類/h3>
+        <p>text: <input type="text" name="text" placeholder="預設文字">く/p>
+        <p>password: <input type="password" name="password"></p>
+        <p>email: <input type="email" name="email"></p>
+        <p>tel: <input type="tel" name="tel"></p>
+        <p>number: <input type="number" name="number"></p>
+        <p>url: <input type="url" name="url"></p>
+        <p>search: <input type="search" name="search"></p>
+        
+        <br>
+        <h3>顏色選擇器く/h3>
+        <p>color: <input type="color" name="color" value="#0385AA"></p>
+        <br>
+        
+        <h4>checkbox</h4>
+        <input type="checkbox" name="checkbox" value="checkbox1">checkbox1<br>
+        <input type="checkbox" name="checkbox" value="checkbox2">checkbox2<br>
+        <input type="checkbox" name="checkbox" value="checkbox3"checked>checkbox3<br>
+        <br>
+        <h4>radio group</h4>
+        <input type="radio" r name="radio"value="radio1">radio1<br>
+        <input type="radio" name="radio" value="radio2" checked>radio2<br>
+        <input type="radio" name="radio" value="radio3">radio2<br>
+
+        <br>
+        <h3>時間類く/h3>
+        <p><input type="date" name="date" value="date"></p>
+        <p><input type="month" name="month" value="month"></p>
+        <p><input type="week" name="week" value="week"></p>
+        <p><input type="time" name="time" value="time"></p>
+        <p><input type="datetime-local"  name="datetime-local" value="datetime-local"></p>
+
+        <br>
+        <h3>範圍</h3>
+        <p><input type="range" name="range" value="range" max="100" min="10"></p>
+
+        <br>
+        <h3>按鈕類</h3>
+        <p><input type="submit" name="submit" value="submit"></p>
+        <p><input type="reset" name="reset" value="Reset"></p>
+        <p><input type="button" name="button"value="button"></p>
+        </form>
+</body>
+</html>
